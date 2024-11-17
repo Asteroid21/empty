@@ -1,0 +1,20 @@
+## sys_tssi_t_64_armv82_wifi_infinix-user 14 UP1A.231005.007 676137 release-keys
+- Manufacturer: alps
+- Platform: common
+- Codename: mgvi_64_wifi_armv82
+- Brand: alps
+- Flavor: sys_tssi_t_64_armv82_wifi_infinix-user
+- Release Version: 14
+- Kernel Version: 5.10.205
+- Id: UP1A.231005.007
+- Incremental: 240808V865
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: alps/hal_mgvi_64_wifi_armv82/mgvi_64_wifi_armv82:12/SP1A.210812.016/676137:user/dev-keys
+- OTA version: 
+- Branch: sys_tssi_t_64_armv82_wifi_infinix-user-14-UP1A.231005.007-676137-release-keys
+- Repo: alps_mgvi_64_wifi_armv82_dump

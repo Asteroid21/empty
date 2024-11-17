@@ -1,0 +1,21 @@
+<trans_sched.config version="1.0" encoding="UTF-8" enable="true">
+<!-- "enable" represents trans_sched state, true:on false:off -->
+    <uxtag  default="UX_TASK_LIGHT0" uxtag_nr="0">
+    <!-- "default" represents default uxtag when a task don't configure uxtag; "uxtag_nr" represents follow items number，must be equal to the number of items below-->
+        <!--<instance name="com.transsion.deskclock" value="UX_TASK_HEAVY0"/> -->
+        <!-- "name" represents task name; "value" represents uxtag-->
+    </uxtag>
+    <blacklist black_nr="9">
+    <!-- "black_nr" represents follow items number，must be equal to the number of items below-->
+        <instance name="com.transsion.iotservice"/>
+        <instance name="com.transsion.magazineservice.hios"/>
+        <instance name="com.transsion.resolver"/>
+        <instance name="com.hyperspeed.rocketclean.pro"/>
+        <instance name="com.transsion.deskclock"/>
+        <instance name="com.google.android.tts"/>
+        <instance name="com.google.android.inputmethod.latin"/>
+        <instance name="com.google.android.googlequicksearchbox"/>
+        <instance name="com.google.android.providers.media.module"/>
+        <!-- "name" represents black name who is not set uxtag-->
+    </blacklist>
+</trans_sched.config>

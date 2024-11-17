@@ -1,0 +1,9 @@
+on post-fs-data
+    write /proc/bootprof "INIT:tran_ihh--start"
+    start tran_ihh
+
+service tran_ihh /vendor/bin/tran_ihh
+    user root
+    group root
+    oneshot
+    disabled

@@ -1,0 +1,172 @@
+[
+  {
+    "key": "speaker1",
+    "type": "ab",
+    "index_a": 0,
+    "index_b": 0
+  },
+
+  {
+    "key": "speaker3",
+    "type": "ab",
+    "index_a": 1,
+    "index_b": 1
+  },
+
+  {
+    "key": "charge_vibrate",
+    "type": "ab",
+    "auto_test": true,
+    "config": {
+      "have_nfc": false,
+      "enable_electric": true,
+      "enable_charge_light": false,
+      "enable_vibrate": true
+    },
+    "index_a": 2,
+    "index_b": 2
+  },
+  {
+    "key": "mic",
+    "type": "ab",
+    "config": {
+        "support_double_mic": true
+    },
+    "index_a": 3,
+    "index_b": 3
+  },
+  {
+    "key": "ref_mic",
+    "type": "ab",
+    "index_a": 4,
+    "index_b": 4
+  },
+  {
+    "key": "headset",
+    "type": "ab",
+    "index_a": 5,
+    "index_b": 5
+  },
+  {
+    "key": "transsion_fm",
+    "type": "ab",
+    "auto_test": true,
+    "index_a": 6,
+    "index_b": 6
+  },
+  {
+    "key": "lcd",
+    "type": "abm",
+    "index_a": 7,
+    "index_b": 7,
+    "index_m": 1
+  },
+  {
+    "key": "speaker2",
+    "type": "ab",
+    "index_a": 8,
+    "index_b": 8
+  },
+  {
+    "key": "speaker4",
+    "type": "ab",
+    "index_a": 9,
+    "index_b": 9
+  },
+  {
+    "key": "back_camera2",
+    "type": "ab",
+    "index_a": 10,
+    "index_b": 10
+  },
+  {
+    "key": "front_camera2",
+    "type": "abm",
+    "index_a": 11,
+    "index_b": 11,
+    "index_m": 0
+  },
+  {
+    "key": "flash",
+    "type": "ab",
+    "auto_test": true,
+    "config": {
+      "back_flash_path": "/sys/devices/virtual/torch/torch/torch_level",
+      "front_flash_path": "/sys/class/sub_torch/sub_torch/sub_torch_level",
+      "back_on": "1",
+      "back_off": "0",
+      "front_on": "1",
+      "front_off": "0"
+    },
+    "index_a": 12,
+    "index_b": 12
+  },
+  {
+    "key": "search",
+    "type": "ab",
+    "auto_test": true,
+    "config": {
+        "is_panel": true
+    },
+    "index_a": 13,
+    "index_b": 13
+  },
+  {
+    "key": "compass",
+    "type": "ab",
+    "index_a": 14,
+    "index_b": 14
+  },
+  {
+    "key": "card",
+    "type": "ab",
+    "auto_test": true,
+    "index_a": 15,
+    "index_b": 15
+  },
+  {
+    "key": "gsensor_calibration",
+    "type": "ab",
+    "auto_test": true,
+	"index_a": 16,
+	"index_b": 16
+  },
+  {
+    "key": "sensor",
+    "type": "ab",
+    "auto_test": true,
+    "config": {
+      "have_nfc": false,
+      "have_tp_face": false,
+      "have_gsensor": true,
+      "have_psensor": false,
+      "have_lsensor": false,
+      "have_hall_sensor": true,
+      "tp_version_check": true,
+      "change_gsensor_mode": false
+    },
+    "index_a": 17,
+    "index_b": 17
+  },
+  {
+    "key": "tp_touch",
+    "type": "ab",
+    "index_a": 18,
+    "index_b": 18
+  },
+  {
+    "key": "key",
+    "type": "ab",
+	"config": {
+        "nfc_mulator": false
+    },
+    "index_a": 19,
+    "index_b": 19
+  },
+  {
+    "key": "otg",
+    "type": "a",
+    "only_manual": true,
+    "index_a": 20
+  }
+]

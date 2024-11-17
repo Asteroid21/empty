@@ -1,0 +1,9 @@
+on post-fs-data
+    write /proc/bootprof "INIT:tran_ihh_cloudctl--start"
+    start tran_ihh_cloudctl
+
+service tran_ihh_cloudctl /vendor/bin/tran_ihh_cloudctl
+    user root
+    group root
+    oneshot
+    disabled

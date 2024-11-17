@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<voice_model_cfg>
+	<voice_model name = "nnnn" keyword="Hi Folax" locale="universal" repeat="5" stage="1" vendor="MTK_11" needTraining="1" version="v4" releaseDate="2023-5-24"/>
+	<voice_model name = "znnn" keyword="Hi Folax" locale="universal" repeat="5" stage="1" vendor="MTK_11" needTraining="1" version="v1" releaseDate="2023-8-16"/>
+</voice_model_cfg>

@@ -1,0 +1,11 @@
+{
+"v":"v1.1",
+"m":"n",
+"t":"20240409",
+"FUNCTION_REFUSEMEDIAFOCUS":["com.rd.tengfei.bdnotification",],
+"FUNCTION_MULITIPLEPLAY":["com.zhiliaoapp.musically.go",],
+"FUNCTION_FADEOUTIN":["com.whatsapp",],
+"FUNCTION_MUTEAPPINPHONE":["com.facebook.katana", "com.ss.android.article.news",],
+"FUNCTION_ADDPERFORMANCE":"disable"
+"FUNCTION_STOPPLAYBACK":"disable"
+}
